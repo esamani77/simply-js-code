@@ -1,0 +1,73 @@
+body{
+    background-color: lightblue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+.next{
+    width: 100%;
+    display: block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.feedback{
+   
+}
+.container{
+    background-color: beige;
+    padding: 50px 25px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.btnChange{
+    display: block;
+    text-align: center;
+    margin: 20px auto 0px auto;
+    margin-top: 20px;
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-transform: capitalize;
+    padding: 17px 10px;
+    background-color: lightskyblue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 75%;
+    /* box-shadow: 50px black; */
+}
+.btnChange:focus{
+    box-shadow: 0 0 10px blue;
+}
+
+input[type="text"]{
+    margin: 20px 0px 0px 0px;
+    margin-right: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 25px;
+    border: aqua 5px solid;
+    border-radius: 10px;
+    width: 75%;
+    outline: none;
+}
+
+input[type="text"]:focus{
+    box-shadow: 0 0 10px blue;
+}
+.text-down{
+    margin: 20px 0px 0px 0px;
+}
+.message{
+    font-size: 1.5rem;
+    color: cadetblue;
+}
