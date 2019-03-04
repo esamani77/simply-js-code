@@ -1,0 +1,40 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btnHex{
+    border: solid white;
+    background: yellow;
+    color: brown;
+    border-radius: 7px;
+    padding: 20px 10px;
+    text-transform: capitalize;
+    font: 20pt bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.container{
+    align-self: center;
+    text-align: center;
+    border: 5px dotted;
+    border-radius: 10px;
+    display: none;
+}
+.container-show{
+    display: block;
+}
+
+.hexText{
+    text-align: center;
+    font: 200%;
+    text-transform: capitalize;
+}
+.btnHex:hover{
+    background: black;
+    color: aqua;
+}
